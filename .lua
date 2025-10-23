@@ -1,5 +1,5 @@
 --[[
-📦 PRIME VIP – AFK + FPS BOOST UI (NEW DESIGN)
+📦 MINHFANSUB VIP – AFK + FPS BOOST UI (NEW DESIGN)
 
 ✨ TÍNH NĂNG:
 + Auto AFK tránh kick
@@ -49,7 +49,7 @@ Instance.new("UIStroke", f).Color = Color3.fromRGB(60, 200, 100)
 local header = Instance.new("TextLabel", f)
 header.Size = UDim2.new(1, -10, 0, 30)
 header.Position = UDim2.new(0, 5, 0, 5)
-header.Text = "PRIME VIP🔥"
+header.Text = "AFK VIP🔥"
 header.Font = Enum.Font.GothamBlack
 header.TextScaled = true
 header.BackgroundTransparency = 1
@@ -195,4 +195,5 @@ spawn(function()
 		wait(math.random(0.4, 0.8))
 		vu:Button2Up(Vector2.new(), cam.CFrame)
 	end
+
 end)
