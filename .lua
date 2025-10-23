@@ -45,7 +45,7 @@ f.Active = true f.Draggable = true
 Instance.new("UICorner", f).CornerRadius = UDim.new(0, 12)
 Instance.new("UIStroke", f).Color = Color3.fromRGB(60, 200, 100)
 
---== Header Prime Vip ==--
+--== Header AFK Vip ==--
 local header = Instance.new("TextLabel", f)
 header.Size = UDim2.new(1, -10, 0, 30)
 header.Position = UDim2.new(0, 5, 0, 5)
@@ -59,7 +59,7 @@ header.TextStrokeTransparency = 0.3
 local close = Instance.new("TextButton", f)
 close.Size = UDim2.new(0, 28, 0, 28)
 close.Position = UDim2.new(1, -35, 0, 5)
-close.Text = "✕"
+close.Text = "X"
 close.TextScaled = true
 close.BackgroundColor3 = Color3.fromRGB(200,60,60)
 close.TextColor3 = Color3.new(1,1,1)
@@ -197,4 +197,5 @@ spawn(function()
 	end
 
 end)
+
 
