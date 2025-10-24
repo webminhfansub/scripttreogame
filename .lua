@@ -70,7 +70,7 @@ close.MouseButton1Click:Connect(function() f:Destroy() end)
 local timer = Instance.new("TextLabel", f)
 timer.Position = UDim2.new(0, 10, 0, 45)
 timer.Size = UDim2.new(1, -20, 0, 28)
-timer.Text = "AFK: 60s"
+timer.Text = "AFK: 300s"
 timer.BackgroundColor3 = Color3.fromRGB(40,40,50)
 timer.TextColor3 = Color3.new(1,1,1)
 timer.Font = Enum.Font.GothamBold
@@ -197,6 +197,7 @@ spawn(function()
 	end
 
 end)
+
 
 
 
