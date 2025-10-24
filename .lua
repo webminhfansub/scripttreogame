@@ -111,7 +111,7 @@ Instance.new("UICorner", toggle)
 local note = Instance.new("TextLabel", f)
 note.Position = UDim2.new(0, 10, 0, 185)
 note.Size = UDim2.new(1, -20, 0, 40)
-note.Text = " Chúc mọi người treo game vui vẻ"
+note.Text = " MINHFANSUB"
 note.TextColor3 = Color3.fromRGB(180, 180, 180)
 note.BackgroundTransparency = 1
 note.Font = Enum.Font.GothamSemibold
@@ -197,5 +197,6 @@ spawn(function()
 	end
 
 end)
+
 
 
